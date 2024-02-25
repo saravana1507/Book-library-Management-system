@@ -20,6 +20,7 @@ public class Book_Customer_controller {
 { 
 	 ModelAndView a=new ModelAndView();
 	 a.setViewName("Login"); 
+	System.out.println("code running");
 	 return a; 
 }
 	 

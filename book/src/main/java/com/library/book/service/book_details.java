@@ -7,7 +7,7 @@ import jakarta.persistence.Id;
 public class book_details {
 
 	@Id
-//	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	//@GeneratedValue(strategy=GenerationType.IDENTITY)
 	 private Integer book_id;
 	
 	 private String  book_name;
